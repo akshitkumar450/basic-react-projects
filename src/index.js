@@ -9,12 +9,20 @@ import reportWebVitals from './reportWebVitals';
 // import App from './4-Accordion/App'
 // import App from './5-Menu/App'
 // import App from './6-Lorem generator/App'
-import App from './7-Slider/App'
+// import App from './7-Slider/App'
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+import App from './8-slider and modal/App'
+
 ReactDOM.render(
+  // reportWebVitals();
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-reportWebVitals();
